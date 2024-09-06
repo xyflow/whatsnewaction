@@ -4,6 +4,9 @@
   "description": "",
   "private": true,
   "main": "index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "scripts": {
     "bundle": "npm run format:write && npm run package",
     "format:write": "npx prettier --write .",
