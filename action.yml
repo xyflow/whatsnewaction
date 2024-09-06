@@ -9,11 +9,11 @@ branding:
 
 # Define your inputs here.
 inputs:
-  - milliseconds:
+  milliseconds:
     description: "Your input description here"
     required: true
     default: "1000"
-  - release:
+  release:
     description: "Github Release Object"
     required: true
 
