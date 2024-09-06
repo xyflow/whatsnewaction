@@ -11,7 +11,7 @@ export async function run(): Promise<void> {
 
     const release = core.getInput("release");
 
-    console.log(`Release: ${release}`);
+    core.debug(`Release: ${release}`);
 
     // Debug logs are only output if the `ACTIONS_STEP_DEBUG` secret is true
     core.debug(`Waiting ${ms} milliseconds ...`);
